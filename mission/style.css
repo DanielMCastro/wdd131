@@ -1,5 +1,10 @@
-HMTL * {
+body {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.dark {
+    background-color: #333;
+    color: white
 }
 
 header {
@@ -11,10 +16,14 @@ h2 {
     color: #006EB6
 }
 
+h2 .dark {
+    color: #4F9ACF
+}
+
 main {
     display: block;
     padding-right: 35%;
-    padding-left: 35%;
+    padding-left: 35%;  
     font-size: 20px;
     line-height: 1.5;
 }
