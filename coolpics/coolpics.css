@@ -25,11 +25,12 @@
     }
 
     #MenuOptions{
-        display: inline;    
+        display: inline;
     }
 
     a{
-        padding: 1vw
+        padding: 1vw;
+        display: inline;
     }
 }
 
@@ -60,18 +61,10 @@ header{
   cursor: pointer;
 }
 
-a{
-    display: block;
-}
-
 h1{
     font-family: Mooli;
     font-size: 6vw;
     text-align: center;
-}
-
-a{
-    font-size: 2vw;
 }
 
 footer{
