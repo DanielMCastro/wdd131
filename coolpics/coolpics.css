@@ -2,20 +2,26 @@
 
 :root {
     --primary-color: #602ea0;
-    --primary-font: Arial, Helvetica, sans-seri;
+    --primary-font: Arial, Helvetica, sans-serif;
     --secondary-font: Mooli;
     --primary-text-color: White:
 }
 
+@media screen and (min-width: 300px) {
+    a{
+        display: block;
+    }
+}
+
 @media screen and (min-width: 700px) {
-    .gallery {
+    #gallery {
         grid-template-columns: 1fr 1fr;
         display: grid;
-  }
+    }
 }
 
 @media screen and (min-width: 1000px) {
-    .gallery {
+    #gallery {
         grid-template-columns: 1fr 1fr 1fr;
         display: grid;
     }
@@ -24,14 +30,14 @@
         display: none;
     }
 
-    #MenuOptions{
-        display: inline;
-    }
-
     a{
         padding: 1vw;
         display: inline;
     }
+}
+
+.hide{
+    display: none;
 }
 
 html *{
@@ -50,7 +56,7 @@ header{
     background: var(--primary-color);
     color: White;
     text-align: center;
-        padding-bottom: 1%;
+    padding-bottom: 1%;
 }
 
 #button {
@@ -74,11 +80,33 @@ footer{
     padding: 1%
 }
 
-img {
+#gallery img {
 	max-width: 100%;
     height: 250px;
     width: 250px;
     object-fit: cover;
     display: block;
     margin: auto;
+}
+
+#modal{
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#exit{
+    position: absolute;
+    top: 20vh;
+}
+
+#modal_image{
+    margin: 13vh auto;
+    max-width: 60%;
+    max-height: 60%;
 }

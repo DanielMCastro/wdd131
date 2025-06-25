@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="This is my site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" description = "This is my site">
     <meta author="Daniel Castro">
-    <script src="coolpics.js"></script>
+    <script src="coolpics.js" defer></script>
     <link rel="stylesheet" href="coolpics.css">
     <title>Document</title>
 </head>
@@ -15,48 +14,52 @@
         <button onclick="MenuButton()" id="button">Menu</button>
         <nav id="MenuOptions">
             <a>Home</a>
-            <a>People<a>
-            <a>Places<a>
-            <a>About<a>
-            <a>Contact<a>
-        </div>
+            <a>People</a>
+            <a>Places</a>
+            <a>About</a>
+            <a>Contact</a>
+        </nav>
     </header>
         <main>
             <h1>Current Work</h1>
-            <div class="images">
-                <section class="gallery">
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture1">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture2">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture3">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture4">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture5">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture6">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture7">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture8">
-                </figure>
-                <figure>  
-	                <img src="norris-sm.jpeg" alt="picture9">
-                </figure>
+            <div id="images">
+                <section id="gallery">
+                    <figure>
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>  
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>  
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>  
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>  
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>  
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
+                    <figure>  
+                        <img src="norris-sm.jpeg" alt="picture1">
+                    </figure>
                 </section>
+            </div>
+            <div id = 'modal' class = 'hide'>
+                <button id="exit">X</button>
+                <img id="modal_image" src ="norris-full.jpeg" alt="picture">
             </div>
         </main>
     <footer class="headfoot">
-        <p>©2023 Not a real site 😀</p>
+        <p>©2025 Not a real site 😀</p>
     </footer>
 </body>
 </html>

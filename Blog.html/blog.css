@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+main{
+    
+}
+
+html *{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+    color: #263D42;
+    background-color: #E3E7D3;
+}
+
+h1{
+    font-family: Mooli;
+    font-size: 3vw;
+    text-align: center;
+    padding: 25px;
+}
+
+#book-container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.book-image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navigation{
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    justify-content: end;
+    justify-items: end;
+    list-style-type: none;
+    max-width: 95%;
+}
+
+a{
+    font-size: 1.3vw;
+}
+
+li{
+    margin: 10px;
+    font-size: 1.3vw;
+}
