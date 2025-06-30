@@ -25,7 +25,9 @@ h1{
 
 #book-container{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 25% 50% 25%;
+    margin-top: 2%;
+    margin-bottom: %;
 }
 
 .book-image{
@@ -49,4 +51,37 @@ a{
 li{
     margin: 10px;
     font-size: 1.3vw;
+}
+
+.date{
+    font-size: 1.3vw;
+    margin: 0;
+}
+
+.info{
+    text-align: right;
+    border-right: 3px solid #6E7D41;
+    height: 450px;
+    padding: 0px 25px;
+    margin-bottom: 20%;
+}
+
+.book-title{
+    color: #2F5B87;
+    font-size: 2vw;
+    font-family: Mooli;
+    padding: 2vw;
+}
+
+.book-image{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    padding: 0px45px;
+}
+
+.text{
+    padding: 0.2vw;
 }
