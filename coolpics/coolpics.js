@@ -29,20 +29,3 @@ const exit = document.getElementById("exit");
   exit.onclick = (event) => {modal.classList.add('hide');
   modal.style.display = 'none';
 };
-
-/*function HandleResize() {
-  var btnText = document.getElementById("button");
-  var moreText = document.getElementById("MenuOptions");
-
-  if (window.innerWidth > 1000) {
-    btnText.classList.remove("hide");
-    moreText.style.display = "block";
-  }
-  else {
-    btnText.classList.add("hide");
-  }
-
-HandleResize();
-addEventListener("resize", HandleResize);
-
-}*/

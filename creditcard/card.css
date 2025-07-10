@@ -1,0 +1,95 @@
+#credit-card{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr 1fr;
+    justify-self: center;
+    gap: 10px;
+}
+
+#card-front{
+    border-radius: 0.5rem;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 15rem;
+    background-color: lightgrey;
+}
+
+#card-back{
+    border-radius: 0.5rem;
+    z-index: 0;
+    height: 15rem;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: rgb(185, 185, 185);
+}
+
+#total{
+    padding: 10px;
+}
+
+img{
+    padding: 20px;
+    justify-self: end;
+}
+
+#card-number{
+    padding: 10px;
+    grid-column: 1/3;
+}
+
+#cardholder-name{
+    padding: 10px
+}
+
+#expiration-date{
+    padding: 10px;
+}
+
+#card-number-form{
+    display: block;
+    width: 13rem;
+}
+
+#cardholder-name-form{
+    display: block;
+}
+
+#expiration{
+    display: block;
+}
+
+#month, #year{
+    width: 3rem;
+}
+
+#CVC{
+    margin-left: 290px;
+    margin-top: 130px;
+}
+
+#CVC-form{
+    width: 3rem;
+    display: block;
+}
+
+#magstrip{
+    margin-top: 20px;
+    border-width: 0;
+    height: 40px;
+    background-color: black;
+}
+
+#submit{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    height: 1.5rem;
+    width: 4rem;
+}
+
+#errormsg{
+    grid-row: 5/5;
+    grid-column: 2/3;
+}
