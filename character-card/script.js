@@ -5,7 +5,7 @@ const character = {
       health: 100,
       image: 'https://andejuli.github.io/wdd131/character_card/snortleblat.webp',
       attacked() {
-        console.log(this.health)A
+        console.log(this.health)
         if (this.health >= 20) {
           this.health -= 20;
         } else {
@@ -20,6 +20,11 @@ const character = {
 
 
 function render_character(){
+  const char_image = document.getElementsByClassName('image')[0];
+  const img = document.getElementsByClassName('');
+  char_image.src = character.image;
+  char_image.alt = character.name;
+
   const char_name = document.getElementsByClassName('name')[0];
   char_name.innerHTML = `<p>${character.name}</p>`;
 
